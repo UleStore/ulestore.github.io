@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+	<brand merk="">
+		<name>Authority : Pate Adult Cat Food</name>
+		<type>Wet Food</type>
+		<price>25000</price>
+		<Weight>6 oz</Weight>
+		<PrimaryIngredient>Beef Broth</PrimaryIngredient>
+		<LifeStage>Adult 1-10 yrs </LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed your adult cat 3 cans per 7 lbs. of body weight per day </Directions>
+		<Ingredients>Beef Broth, Animal Liver, Beef, Chicken, Ocean Fish</Ingredients>
+		<gambar>img/catFood/Pate Adult Cat Food.jpg</gambar>
+	</brand>
+
+	<brand>
+		<name>Fancy Feast : Classic Adult Cat Food</name>
+		<type>Wet Food</type>
+		<price>20000</price>
+		<Weight>3oz</Weight>
+		<PrimaryIngredient>Beef</PrimaryIngredient>
+		<LifeStage>Adult 1-10 yrs </LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed one can per 3.5lbs of body weight for adult cat</Directions>
+		<Ingredients>Beef, Beef Broth, Liver, Meat by-Products, Fish, Artificial and Natural Flavors</Ingredients>
+		<gambar>img/catFood/FancyFeast.jpg</gambar>
+	</brand>
+
+	<brand>
+		<name>Simply Nourish : Stew Adult Cat Food</name>
+		<type>Wet Food</type>
+		<price>30000</price>
+		<Weight>3 oz</Weight>
+		<PrimaryIngredient>Chicken</PrimaryIngredient>
+		<LifeStage>Adult 1-10 yrs </LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed one can per 3.5lbs of body weight for adult cat</Directions>
+		<Ingredients>Beef, Beef Broth, Liver, Meat by-Products, Fish, Artificial and Natural Flavors</Ingredients>
+		<gambar>img/catFood/Stew Adult Cat Food.jpg</gambar>
+	</brand>
+	<brand>
+		<name>Friskies : Classic Paté Cat Food</name>
+		<type>Wet Food</type>
+		<price>7500</price>
+		<Weight>5.5 oz</Weight>
+		<PrimaryIngredient>Chicken</PrimaryIngredient>
+		<LifeStage>Adult 1-10 yrs </LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed one can per 3.5lbs of body weight for adult cat</Directions>
+		<Ingredients>Meat by-Products, Water Sufficient for Processing, Poultry by-Products</Ingredients>
+		<gambar>img/catFood/Friskies Classic Paté Cat Food.jpg</gambar>
+	</brand>
+	<brand>
+		<name>Authority : Indoor Adult Cat Food - Chicken - Rice</name>
+		<type>Wet Food</type>
+		<price>95000</price>
+		<Weight>4 lbs (1.8 kg)</Weight>
+		<PrimaryIngredient>Chicken</PrimaryIngredient>
+		<LifeStage>Adult 1-10 yrs </LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed one can per 3.5lbs of body weight for adult cat</Directions>
+		<Ingredients>Chicken, Chicken Meal, Brewers Rice, Corn Protein Concentrate</Ingredients>
+		<gambar>img/catFood/Authority Indoor Adult Cat Food - Chicken - Rice.jpg</gambar>
+	</brand>
+
+	<brand>
+		<name>Fancy Feast : Gourmet Adult Cat Food</name>
+		<type>Dry Food </type>
+		<price>125000</price>
+		<Weight>3 lbs</Weight>
+		<PrimaryIngredient>Brewer's Rice</PrimaryIngredient>
+		<LifeStage>Adult 1-10 yrs </LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>5 â9 lb.: feed 1/3 â 2/3 cup
+		10 â 14 lb.: feed 2/3 â 1 cup </Directions>
+		<Ingredients>Fish, Chicken Meal, Turkey Meal, Chicken, Dried Potatoes, Dried Peas, Canola Oil (Preserved with Mixed Tocopherols)</Ingredients>
+		<gambar>img/catFood/Fancy Feast Gourmet Adult Cat Food.jpg</gambar>
+	</brand>
+
+	<brand>
+		<name>Simply Nourish : Grain Free, High Protein, Fish - Chicken</name>
+		<type>Dry Food </type>
+		<price>125000</price>
+		<Weight>3 lb (1.3 kg)</Weight>
+		<PrimaryIngredient>Fish</PrimaryIngredient>
+		<LifeStage>Adult 1-10 yrs </LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>5 â9 lb.: feed 1/3 â 2/3 cup
+		10 â 14 lb.: feed 2/3 â 1 cup </Directions>
+		<Ingredients>Fish, Chicken Meal, Turkey Meal, Chicken, Dried Potatoes, Dried Peas, Canola Oil (Preserved with Mixed Tocopherols)</Ingredients>
+		<gambar>img/catFood/Simply Nourish.jpg</gambar>
+	</brand>
+
+	<brand>
+		<name>Purina : Cat Chow Complete Formula Cat Food</name>
+		<type>Dry Food</type>
+		<price>155000</price>
+		<Weight>16 Lb </Weight>
+		<PrimaryIngredient>Poultry</PrimaryIngredient>
+		<LifeStage> All</LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed one can per 3.5lbs of body weight for adult cat</Directions>
+		<Ingredients>Poultry by-product meal, Corn Meal, Ground Whole Wheat, Corn Gluten Meal, Soy Flour, Brewers Rice</Ingredients>
+		<gambar>img/catFood/Purina Cat Chow Complete Formula Cat Food.jpg</gambar>
+	</brand>
+
+	<brand>
+		<name>PetAg KMR Liquid Milk Replacer for Kittens</name>
+		<type>Cat Milk Replacer</type>
+		<price>59000</price>
+		<Weight>8 oz</Weight>
+		<PrimaryIngredient>Milk</PrimaryIngredient>
+		<LifeStage>For kittens</LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed one can per 3.5lbs of body weight for adult cat</Directions>
+		<Ingredients>Water, Condensed Skimmed Milk, Milk Protein Concentrate, Soybean Oil, Cream, Dipotassium Phosphate, Sodium Chloride</Ingredients>
+		<gambar>img/catFood/PetAg KMR Liquid Milk Replacer for Kittens.jpg</gambar>
+	</brand>
+
+		<brand>
+		<name>Royal Canin Mother - Babycat Cat Food</name>
+		<type>Dry Food</type>
+		<price>290000</price>
+		<Weight>3.5 lb</Weight>
+		<PrimaryIngredient>Chicken</PrimaryIngredient>
+		<LifeStage>Nursing Mothers</LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed one can per 3.5lbs of body weight for adult cat</Directions>
+		<Ingredients>Chicken By Product Meal, Brewers Rice, Chicken Fat, Corn, Wheat Gluten, Natural Flavors</Ingredients>
+		<gambar>img/catFood/Royal Canin Mother - Babycat Cat Food.jpg</gambar>
+	</brand>
+
+	<brand>
+		<name>Hills Science Diet Hairball Control Senior Cat Food - Chicken</name>
+		<type>Dry Food</type>
+		<price>135000</price>
+		<Weight>3.5 lb (1.58 kg)</Weight>
+		<PrimaryIngredient>Chicken</PrimaryIngredient>
+		<LifeStage>Adult</LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed one can per 3.5lbs of body weight for adult cat</Directions>
+		<Ingredients>Chicken, Whole Grain Wheat, Corn Gluten Meal, Pork Fat, Powdered Cellulose, Wheat Gluten, Brewers Rice</Ingredients>
+		<gambar>img/catFood/pPETNA-5002975_main_t300x300.jpg</gambar>
+	</brand>
+
+		<brand>
+		<name>Fancy Foods</name>
+		<type>Dry Food</type>
+		<price>120000</price>
+		<Weight>3oz</Weight>
+		<PrimaryIngredient>Chicken Meal</PrimaryIngredient>
+		<LifeStage>Kitten to Senior</LifeStage>
+		<HealthConsideration>General Health</HealthConsideration>
+		<Directions>Feed one can per 3.5lbs of body weight for adult cat</Directions>
+		<Ingredients>Chicken Meal, Chicken Fat (Preserved with Mixed Tocopherols and Citric Acid), Tapioca, Chicken</Ingredients>
+		<gambar>img/catFood/pPETNA-5217035_main_t300x300.jpg</gambar>
+	</brand>
+
+	
+</main>

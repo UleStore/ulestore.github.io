@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PetSmart</title>
+
+<link rel="stylesheet" type="text/css" href="css/Style.css">
+<link rel="shortcut icon" href="img/logo/Iconka-Saint-Whiskers-Cat-food-hearts.icon" />
+</head>
+<body onload="loadXMLDoc()">
+	<div class="w_header" id="content1">
+		<div class="header">
+			<div class="logo"><img src="img/PETSMART-logo.png" width="100%" height="100%"></div>
+			<table style="margin-left: 800px ">
+				<tr>
+					<td>
+			<a href="#content1"><div class="menu">Home</div></a></td>
+					<td><a href="#content2"><div class="menu">Foods</div></a></td>
+					<td>
+			<a href="#openCart" onclick="myCart()"><div class="menu">My Cart</ssssdiv></a>
+			</td>
+					<td>
+			<a href="#content3"><div class="menu">Profil</div></a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="wrapper">
+	
+	<div class="w_content">
+		<div class="img1" id="content1">
+			<div class="box1"><h2>Welcome to Our Website</h2>
+				<br><p class="paragraf-setting">&nbsp;&nbsp; Kami Menjual makanan dengan kualitas terbaik untuk kucing kesayangan anda. semua makanan kucing yang kami jual <br> adalah barang-barang impor dari luar negeri dan di proses secara higienis dengan teknologi canggih. Kucing anda pasti<br>langsung ketagihan dalam sekali coba karena rasa nya yang alami dan bahan-bahan nya yang segar</p></div>
+			<div class="box2">
+				<table width="330px">
+					<tr ><td colspan="2"><h2>Berkualitas Tinggi</h2></td></tr>
+					<tr>
+					<td width="100px">Produk yang kami jual telah bersertivikat berkualitas tinggi</td>
+					<td width="100px" style="text-align:center;"><img src="img/logo/lg1.png" class="opc" width="150px" height="150px"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="box2">
+				<table width="330px">
+					<tr ><td colspan="2"><h2>Ramah Lingkungan</h2></td></tr>
+					<tr>
+					<td width="100px">Kami hanya mengunakan bahan-bahan yang ramah ligkungan</td>
+					<td width="100px" style="text-align:center;"><img src="img/logo/lg2.png" class="opc" width="110px" height="150px"></td>
+					</tr>
+				</table>
+			</div>
+			<div class="box2">
+				<table width="330px">
+					<tr ><td colspan="2"><h2>Bersertifikat Halal</h2></td></tr>
+					<tr>
+					<td width="100px">Produk kami telah bersertifikasi halal di semua negara</td>
+					<td width="100px" style="text-align:center;"><br><img src="img/logo/lg3.png" class="opc" width="120px" height="120px"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="gap" id="content2"></div>
+		<div id="content">
+		<div class="box3" id="content2"><h1>Our Product</h1></div>
+		<table id="demo" ></table>
+		<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<form name="formPembelian">
+		<table border="0">
+			<tr>
+				<th colspan="5"><h1><p id="f_name"></h1><hr></p></th>
+			</tr>
+			<tr>
+				<td Rowspan="4" style="width:210px; padding-top:20px; padding-bottom:20px;"><img class="img-bdr" width="200px" height="200px" id="f_img" src=""></td>
+				<td style="width:100px;"><b>Price</b></td><td colspan="3"><p id="f_price"></p></td>
+			</tr>
+			<tr>
+				<td><b>Ingredients</b></td><td colspan="3"><p id="f_Ingredients"></p></td>
+			</tr>
+			<tr>
+				<td><b>Directions</b></td><td colspan="3"><p id="f_Directions"></td>
+			</tr>
+			<tr>
+				<td><b>Jumlah</b></td><td style="width:100px;">: <input style="width:50px;" id="f_Jml" onchange="doTotal(this.value)" type="number" nama="txtJml"></td>
+				<td style="width:80px;"><b>Subtotal</b></td><td><p id="subtotal"> </p></td>
+			</tr>
+			<tr>
+				<td colspan="0"><p><b>*Note</b> : Barang di Ambil di Toko</p></td>
+				<th colspan="0"><hr><button onclick="validation()" style="width:300px; height:30px;"><b>Add to Cart</b></th>
+			</tr>
+		</table>
+		</form>
+	</div>
+</div>
+
+
+		<div id="openCart" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<form name="formPembelian">
+		<center><h1>Your Cart List</h1></center><hr>
+		<p><b>*Note</b> : Barang di Ambil di Toko</p>
+				<p id="cartList" id="f_name"></p>
+	</div>
+</div>
+
+		<div class="gap" id="content3"></div>
+		<div class="img2">
+			<div class="box4"><h2>My Profile</h2></div>
+			<div class="box5">
+			<table>
+				<tr >
+					<td rowspan="6" width="250px">
+					<div class="img-profile"><img src=img/ule.jpg width="100%" height="100%"></div>
+					</td>
+					<td height="50px" width="150px">
+						NIM :
+					</td>
+					<td>
+						: 381563033
+					</td>
+				</tr>
+				<tr>
+					<td height="50px">
+						Nama :
+					</td>
+					<td>
+						: Sulaeman 
+					</td>
+				</tr>
+				<tr>
+					<td height="50px">
+
+						Tanggal Lahir
+					</td>
+					<td>
+						: 21 - Maret - 1993
+					</td>
+				</tr>
+								<tr>
+					<td height="50px">
+						Alamat
+					</td>
+					<td>
+						: Jl Arcamanik Endah o.83
+					</td>
+				</tr>
+								<tr>
+					<td height="50px">
+						Hobi
+					</td>
+					<td>
+						: Menulis
+					</td>
+				</tr>
+			</table>
+		</div>
+		</div>
+		<div class="footer">Copy Right &copy Andri Gunawan 2016</div>
+				<!-- The Modal -->
+
+	</div>
+	</div>
+		<script>
+
+
+			var total;
+			var x1 = [];
+			var z,xLen;
+			z=0;
+
+
+			function validation(){
+				var x = document.getElementById('f_Jml').value;
+   				if (x == null || x == "" || x=="0") {
+        			alert("Jumlah tidak boleh 0 !");
+        			return false;
+    			}else{
+    				
+    				x1[z] = document.getElementById('f_name').innerHTML
+    				+";"+document.getElementById('f_Jml').value
+    				+";"+document.getElementById('f_price').innerHTML
+    				+";"+document.getElementById("subtotal").innerHTML;
+					z= z +parseInt("1");
+				alert("Barang Sudah di masukan !");
+
+    			}
+			}
+
+				function validationBuy(){
+   				if (xLen == null || xLen == "" || xLen<"0") {
+        			alert("Jumlah Barang Tidak boleh 0 !");
+        			return false;
+    			}else{
+    			
+					alert("Terima Kasih Atas Pembelian Nya !");
+
+    			}
+			}
+
+			
+
+			function myCart(){
+				text = "<table border=1><tr bgcolor='white'><th width='300px'>Produk</th><th>Jumlah</th><th width='150px'>Harga</th><th width='150px'>Total</th></tr>";
+				var a,b,c,d;
+				var t1,total;
+				total = 0;
+				var array,tot;
+				xLen = x1.length;
+				for (i = 0; i < xLen; i++) {
+					array = x1[i].split(';');
+					a = array[0];
+					b = array[1];
+					c = array[2];
+					d = array[3];
+					tot = d.split('.');
+					t1 = tot[1];
+					total= total + parseInt(t1);
+					text +="<tr><td>"+a+"</td><td align='center'>"+b+"</td><td>"+c+"</td><td>"+d+"</td></tr>";
+				} 
+				text +="<tr><th></th><th></th><th>Total Seluruh</th><th>Rp."+total+"</th></tr>" +
+				"<tr border='0'><th colspan='2'>Atas Nama : </th><th><input type='text'></th><td rowspan='5'>"+"<button onclick='validationBuy()' style='width:300px; height:60px;' rowspan='3'><b>Buy</b></button</td></tr><tr><th colspan='2'>Alamat : </th><th><input type='text'></th></tr><tr><th colspan='2'>No Telpon : </th><th><input type='text'></th></tr></table>";
+				document.getElementById("cartList").innerHTML=text;
+			}
+
+			function loadXMLDoc() {
+				var xmlhttp = new XMLHttpRequest();
+				xmlhttp.onreadystatechange = function() {
+					if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+						myFunction(xmlhttp);
+					}
+				}
+				xmlhttp.open("GET","DataCatFood.xml",true);
+				xmlhttp.send();
+			}
+
+
+			function doTotal(value) {
+				var n1n;
+				n1n=parseInt(value*total);
+				document.getElementById("subtotal").innerHTML = "Rp."+n1n;
+			}
+
+			function doAction(value) {
+				document.getElementById('f_price').innerHTML = "0";
+				document.getElementById('f_Jml').value = "0";
+				document.getElementById('f_name').innerHTML = "";
+   				document.getElementById("subtotal").innerHTML = "Rp.0";
+				var n1,n2,n3,n4,n5;
+				var array = value.split(';');
+				n1 = array[0], n2 = array[1], n3=array[2],n4=array[3],n5=array[4];
+				total=n2;
+				document.getElementById('f_price').innerHTML = "Rp."+n2;
+				document.getElementById('f_name').innerHTML = n1;
+   				document.getElementById("f_img").src = n3;
+   				document.getElementById('f_Ingredients').innerHTML = n4;
+   				document.getElementById('f_Directions').innerHTML = n5;
+			}
+
+			function myFunction(xml) {
+				var i,c;
+				var vl;
+				var xmlDoc = xml.responseXML;
+				var table = "<div class='content1'>";
+				var x = xmlDoc.getElementsByTagName("brand");
+
+				for (i = 0; i < x.length; i++) {
+					vl = x[i].getElementsByTagName("name") [0].childNodes[0].nodeValue+";"+ x[i].getElementsByTagName("price") [0].childNodes[0].nodeValue + ";" + x[i].getElementsByTagName("gambar") [0].childNodes[0].nodeValue +";"+ x[i].getElementsByTagName("Ingredients") [0].childNodes[0].nodeValue +";"+x[i].getElementsByTagName("Directions") [0].childNodes[0].nodeValue;
+					table
+					+= "<div class='tb-wrapper' ><div class='tb-header'>" +
+					x[i].getElementsByTagName("name") [0].childNodes[0].nodeValue
+					+ "</div><img src='" +
+					x[i].getElementsByTagName("gambar") [0].childNodes[0].nodeValue
+					+ "' width='210px' height='185px'><div class='tb-content1'>Type</div><div class='tb-content2'>: " +
+					x[i].getElementsByTagName("type") [0].childNodes[0].nodeValue
+					+ "</div><div class='tb-content1'>Price</div><div class='tb-content2'>: Rp." +
+					x[i].getElementsByTagName("price") [0].childNodes[0].nodeValue 
+					+ "</div><div class='tb-content1'>Weight</div><div class='tb-content2'>: " +
+					x[i].getElementsByTagName("Weight") [0].childNodes[0].nodeValue 
+					+ "</div><div class='tb-content1'>Flavor</div><div class='tb-content2'>: " +
+					x[i].getElementsByTagName("PrimaryIngredient") [0].childNodes[0].nodeValue 
+					+ "</div><div class='tb-content1'>Age</div><div class='tb-content2'>: " +
+					x[i].getElementsByTagName("LifeStage") [0].childNodes[0].nodeValue
+					+ "</div><div class='tb-content1'>Health</div><div class='tb-content2'>: " +
+					x[i].getElementsByTagName("HealthConsideration") [0].childNodes[0].nodeValue
+					+ "</div><a href='#openModal'><button class='bt-buy' id='myBtn' value='"+vl+"' onclick='doAction(this.value)'>Add to cart</button></a></div>" ;
+				}
+				table
+				+="</div>";
+				document.getElementById("demo").innerHTML = table;
+			}
+		</script>
+
+	
+</body>
+</html>
